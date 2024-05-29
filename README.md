@@ -1,0 +1,2 @@
+This is a pet project alternative for work. Havent spent too much time on it and you can try it yourself by making a call by curl:
+curl -X POST "Your link that will be given after you start uvicorn with the correct port" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "file={exact location of the file you want to stamp}" -F "text1={first text}" -F "text2={second text}" -F "text3={third text}" -F "selection={which approver}" --output output.pdf
